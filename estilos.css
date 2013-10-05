@@ -129,6 +129,10 @@ nav #publicar_nav a
 	padding: 0.5em 1em;
 	text-decoration: none;
 }
+#bienvenida
+{
+	display: none;
+}
 #contenido
 {
 	margin: 1em;
@@ -147,17 +151,31 @@ nav #publicar_nav a
 	color: #7A7A7A;
 	font-size: 0.9em;
 }
-
+#contenido .item .datos_item
+{
+	text-align: right;
+}
+#contenido .item .datos_item .comentario_item
+{
+	background: #878787;
+	border-radius: 4px;
+	color: white;
+	margin: 0 0 0 2em;
+	padding: 4px;
+	text-decoration: none;
+}
 #contenido .item .datos_item .tag_item
 {
 	background: #22BCE0;
 	border-radius: 0.5em;
 	color: white;
+	float: left;
 	text-decoration: none;
 	padding: 0.2em 0.5em;
 }
 #contenido .item .datos_item .guardar_item
 {
+	margin: 0 1em;
 	text-decoration: none;
 }
 #contenido .item .datos_item .guardar_item:after
